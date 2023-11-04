@@ -38,3 +38,5 @@ Starting time = 11-04-2023 1132
  Test it = IT WORKED
 3. Rename the original site.css file to site_o.css
 4. Add new site.css file
+5. Update the navbar-light to navbar dark and bg-white to bg-primary and footer
+ Test it = IT WORKED

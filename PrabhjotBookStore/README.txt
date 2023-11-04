@@ -61,7 +61,7 @@ Starting time = 11-04-2023 1145
 6. Delete the migration folder
 7. Install Identity.EntityFrameworkCore
 8. Delete the class1.cs file from the all new three project
- Test it = IT NOT WORKED																			  ..........ERRR.......
+ Test it = IT NOT WORKED																			  ..........ERROR..........
 9. Error was type or namespace Data does not exist in the PrabhjotBookStore
 10. to solve this isssue I add references to PrabhjotBooks.DataAccess
  Test it = IT WORKED
@@ -69,3 +69,11 @@ Starting time = 11-04-2023 1145
 12. Adding referance to all projects
 13. Rename the Model folder to ViewModel
 14. Change the namespace of errorViewModels.c file
+ Test it = IT NOT WORKED																			  ..........ERROR..........
+15. Error was The type or namespace name 'ErrorViewModel' could not be found PrabhjotBookStore
+16. To solve this isssue I used using PrabhjotBookStore.Models.ViewModels;
+ Test it = IT NOT WORKED																			  ..........ERROR..........
+ Severity	Code	Description	Project	File	Line	Suppression State
+17. The type or namespace name 'ErrorViewModel' PrabhjotBookStore
+18. Again to solve this isssue I used using PrabhjotBookStore.Models.ViewModels; in Error.cshtml.g.cs file
+ Test it = IT NOT WORKED

@@ -42,4 +42,9 @@ Starting time = 11-04-2023 1132
  Test it = IT WORKED
 6. Update _Layout.cshtml file
  Test it = IT WORKED
-8. Adde the additional stylesheets and scripts to _Layout.cshtml file
+7. Adde the additional stylesheets and scripts to _Layout.cshtml file
+8. Add dropdown menu and items 
+Test it = IT WORKED 
+9. Commint to Github
+
+-------COMPLETED STEP 1.3 BOOTSTRAP-------

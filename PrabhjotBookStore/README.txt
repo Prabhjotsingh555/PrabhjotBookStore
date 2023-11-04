@@ -152,3 +152,4 @@ Completed time 11-04-2023 0100
 15. Added new class (SP_Call.cs) in Repository folder 
 16. Modify the class (SP_Call.cs) in Repository folder
 17. Update the class (SP_Call.cs) in Repository folder
+18. Added new interface (IUnitOfWork.cs) in IRepository folder 

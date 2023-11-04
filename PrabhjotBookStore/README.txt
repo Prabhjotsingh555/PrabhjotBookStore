@@ -119,3 +119,4 @@ Completed time 11-04-2023 0100
 4. The migration entry (20231104171407_DefaultIdentityMigration.cs)
 5. Update the database
 6. Add new class Category.cs in PrabhjotBooks.Models
+7. Modify the Category.cs in PrabhjotBooks.Models

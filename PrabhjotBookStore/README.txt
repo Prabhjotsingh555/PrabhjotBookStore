@@ -139,3 +139,4 @@ Completed time 11-04-2023 0100
 3. Update PrabhjotBookStore.csproj
 4. Added new class (IRepository.cs) in IRepository folder 
 5. Modify the class IRepository.cs
+6. Added new class (Repository.cs) in Repository folder 

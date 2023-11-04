@@ -65,3 +65,4 @@ Starting time = 11-04-2023 1145
 9. Error was type or namespace Data does not exist in the PrabhjotBookStore
 10. to solve this isssue I add references to PrabhjotBooks.DataAccess
  Test it = IT WORKED
+11. Move model folder to new project PrabhjotSinghBooks.Models project

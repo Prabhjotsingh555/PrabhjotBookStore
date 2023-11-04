@@ -127,3 +127,7 @@ Completed time 11-04-2023 0100
 11. Error was CategoryToDb is used by existing migration
 12. To solve this issue i delete the previous CategoryToDb migration file and re-run command
  NOW IT WORKED
+ Test it = IT WORKED
+13. Commint to Github
+
+-------COMPLETED STEP 2.1 Create the DB-------

@@ -14,5 +14,10 @@ namespace PrabhjotBooks.DataAccess.Repository
         {
             _db = db;
         }
+
+        public void Update(Category category)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

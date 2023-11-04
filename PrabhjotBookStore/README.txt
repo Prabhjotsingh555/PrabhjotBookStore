@@ -145,3 +145,5 @@ Completed time 11-04-2023 0100
 9. Added new class (CategoryRepository.cs) in Repository folder 
 10. Modify the class ICategoryRepository.cs
 11. Modify the class CategoryRepository.cs
+ Test it = IT WORKED
+12. Commint to Github

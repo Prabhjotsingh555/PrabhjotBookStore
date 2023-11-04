@@ -30,3 +30,7 @@ Starting time = 11-04-2023 1130
 Test it = IT WORKED
 
 -------COMPLETED STEP 1.2 DEBUGGING-------
+
+Starting time = 11-04-2023 1132
+
+1. Rename the original Bootstrap files to Bootstrap_o

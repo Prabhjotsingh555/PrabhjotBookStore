@@ -135,3 +135,4 @@ Completed time 11-04-2023 0100
 -------START STEP 2.2 Repository-------
 
 1. Add new folder Repository in PrabhjotBooks.DataAccess
+2. Add new folder IRepository inside Repository in Prabhjotbooks.DataAccess

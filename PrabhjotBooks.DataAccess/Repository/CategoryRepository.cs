@@ -1,12 +1,18 @@
-﻿using System;
+﻿using PrabhjotBooks.DataAccess.Repository.IRepository;
+using PrabhjotBooks.Models;
+using PrabhjotBookStore.DataAccess.Data;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace PrabhjotBooks.DataAccess.Repository
 {
-    class CategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
+        private readonly ApplicationDbContext _db;
+        public CategoryRepository(ApplicationDbContext db) : base(db)
+        {
+            _db = db;
+        }
     }
 }

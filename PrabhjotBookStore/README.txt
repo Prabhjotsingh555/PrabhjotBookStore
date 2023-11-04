@@ -19,7 +19,7 @@ Program author = Prabhjot Singh
 12. Then comment the local host line  7 inside > Properties > launchSettings.json
 13. Comment the 35th line in startup file
 Test it = IT WORKED
-13. Commint to Github
+14. Commint to Github
 
 -------COMPLETED STEP 1.1 REVIEW-------
 
@@ -39,4 +39,6 @@ Starting time = 11-04-2023 1132
 3. Rename the original site.css file to site_o.css
 4. Add new site.css file
 5. Update the navbar-light to navbar dark and bg-white to bg-primary and footer
+ Test it = IT WORKED
+6. Update _Layout.cshtml file
  Test it = IT WORKED

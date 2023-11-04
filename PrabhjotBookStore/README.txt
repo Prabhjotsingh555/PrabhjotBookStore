@@ -138,3 +138,4 @@ Completed time 11-04-2023 0100
 2. Add new folder IRepository inside Repository in Prabhjotbooks.DataAccess
 3. Update PrabhjotBookStore.csproj
 4. Added new class (IRepository.cs) in IRepository folder 
+5. Modify the class IRepository.cs

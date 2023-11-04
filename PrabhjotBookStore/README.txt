@@ -95,3 +95,9 @@ Test it = IT WORKED
 32. Added new Admin area in  Area
 33. Added proper view in Area's View
 34. Delete the Data and Models foldes from the Area's Admin
+35. Delete the empty Controller from prabhjotbookStore
+Test it = IT WORKED
+
+Completed time 11-04-2023 0100
+
+-------COMPLETED STEP 1.4 Add Projects & Modify-------

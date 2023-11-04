@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33801.447
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrabhjotBookStore", "PrabhjotBookStore\PrabhjotBookStore.csproj", "{73C57197-5FBB-4CB5-9987-925BB46672CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrabhjotBookStore", "PrabhjotBookStore\PrabhjotBookStore.csproj", "{73C57197-5FBB-4CB5-9987-925BB46672CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrabhjotBooks.DataAccess", "PrabhjotBooks.DataAccess\PrabhjotBooks.DataAccess.csproj", "{2CCD8392-87FD-4DC6-B039-4E5DFB4EC6B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{73C57197-5FBB-4CB5-9987-925BB46672CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C57197-5FBB-4CB5-9987-925BB46672CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C57197-5FBB-4CB5-9987-925BB46672CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCD8392-87FD-4DC6-B039-4E5DFB4EC6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCD8392-87FD-4DC6-B039-4E5DFB4EC6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCD8392-87FD-4DC6-B039-4E5DFB4EC6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCD8392-87FD-4DC6-B039-4E5DFB4EC6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

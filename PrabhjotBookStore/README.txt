@@ -66,3 +66,4 @@ Starting time = 11-04-2023 1145
 10. to solve this isssue I add references to PrabhjotBooks.DataAccess
  Test it = IT WORKED
 11. Move model folder to new project PrabhjotSinghBooks.Models project
+12. Adding referance to all projects

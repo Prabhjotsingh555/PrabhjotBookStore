@@ -80,3 +80,4 @@ Starting time = 11-04-2023 1145
 19. Added class Sd.cs to new project PrabhjotSinghBooks.Utility
 20. Modify the properties of the Sd.cs class 
 21. Adding referance to all projects
+22. Add new (Customer) Area to Area

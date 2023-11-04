@@ -22,3 +22,11 @@ Test it = IT WORKED
 13. Commint to Github
 
 -------COMPLETED STEP 1.1 REVIEW-------
+
+-------START STEP 1.2 DEBUGGING-------
+
+Starting time = 11-04-2023 1130
+
+Test it = IT WORKED
+
+-------COMPLETED STEP 1.2 DEBUGGING-------

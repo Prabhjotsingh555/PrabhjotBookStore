@@ -122,3 +122,8 @@ Completed time 11-04-2023 0100
 7. Modify the Category.cs in PrabhjotBooks.Models
 8. Add migration CategoryToDb
 9. Update the ApplicationdbContext file and give reference
+10. Re-run the migration CategoryToDb
+ NOT WORKED																		                       ..........ERROR..........
+11. Error was CategoryToDb is used by existing migration
+12. To solve this issue i delete the previous CategoryToDb migration file and re-run command
+ NOW IT WORKED

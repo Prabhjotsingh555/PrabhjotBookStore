@@ -68,3 +68,4 @@ Starting time = 11-04-2023 1145
 11. Move model folder to new project PrabhjotSinghBooks.Models project
 12. Adding referance to all projects
 13. Rename the Model folder to ViewModel
+14. Change the namespace of errorViewModels.c file

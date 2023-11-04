@@ -58,3 +58,4 @@ Starting time = 11-04-2023 1145
 3. Added new project PrabhjotBooks.Utility
 4. Move Data folder in PrabhjotBooks.DataAccess from PrabhjotBookStore
 5. Installed Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages
+6. Delete the migration folder

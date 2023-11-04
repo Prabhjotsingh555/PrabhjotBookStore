@@ -54,3 +54,4 @@ Test it = IT WORKED
 Starting time = 11-04-2023 1145
 
 1. Added new project PrabhjotBooks.DataAccess
+2. Added new project PrabhjotBooks.Models

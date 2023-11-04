@@ -131,3 +131,7 @@ Completed time 11-04-2023 0100
 13. Commint to Github
 
 -------COMPLETED STEP 2.1 Create the DB-------
+
+-------START STEP 2.2 Repository-------
+
+1. Add new folder Repository in PrabhjotBooks.DataAccess

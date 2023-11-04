@@ -60,3 +60,4 @@ Starting time = 11-04-2023 1145
 5. Installed Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages
 6. Delete the migration folder
 7. Install Identity.EntityFrameworkCore
+8. Delete the class1.cs file from the all new three project

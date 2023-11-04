@@ -85,3 +85,4 @@ Starting time = 11-04-2023 1145
 24. Move the HomeController.cs to Area > Customer > Contollers
 25. Delete the Data and Models foldes from the Area > Customer
 26. Edit the HomeController.cs
+27. Move the Home folder to Area's View 

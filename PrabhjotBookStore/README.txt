@@ -78,3 +78,4 @@ Starting time = 11-04-2023 1145
 18. Again to solve this isssue I used using PrabhjotBookStore.Models.ViewModels; in Error.cshtml.g.cs file
  Test it = IT NOT WORKED
 19. Added class Sd.cs to new project PrabhjotSinghBooks.Utility
+20. Modify the properties of the Sd.cs class 

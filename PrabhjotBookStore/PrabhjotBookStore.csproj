@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PrabhjotBooks.DataAccess\PrabhjotBooks.DataAccess.csproj" />
     <ProjectReference Include="..\PrabhjotBooks.Models\PrabhjotBooks.Models.csproj" />
+    <ProjectReference Include="..\PrabhjotBooks.Utility\PrabhjotBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>

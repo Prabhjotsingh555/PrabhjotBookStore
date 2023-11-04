@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrabhjotBooks.Models
 {
-    class SD
+    public static class SD
     {
     }
 }

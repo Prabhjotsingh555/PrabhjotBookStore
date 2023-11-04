@@ -141,3 +141,4 @@ Completed time 11-04-2023 0100
 5. Modify the class IRepository.cs
 6. Added new class (Repository.cs) in Repository folder 
 7. Modify the class Repository.cs
+8. Added new class (ICategoryRepository.cs) in IRepository folder 

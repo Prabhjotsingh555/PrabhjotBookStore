@@ -91,3 +91,4 @@ Starting time = 11-04-2023 1145
 29. Actually I forget to add @model PrabhjotBookStore.Models.ViewModels.ErrorViewModel in Error.cshtml file so i add it
 Test it = IT WORKED 
 30. Copy ViewImport and _ViewStart to Area's Home
+31. Modify the _ViewStart.cshtml

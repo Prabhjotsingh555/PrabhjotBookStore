@@ -36,3 +36,4 @@ Starting time = 11-04-2023 1132
 1. Rename the original Bootstrap files to Bootstrap_o
 2. Added new files wwwroot > lib > bootstrap > dist > css
  Test it = IT WORKED
+3. Rename the original site.css file to site_o.css

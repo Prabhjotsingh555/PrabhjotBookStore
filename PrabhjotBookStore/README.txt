@@ -120,3 +120,4 @@ Completed time 11-04-2023 0100
 5. Update the database
 6. Add new class Category.cs in PrabhjotBooks.Models
 7. Modify the Category.cs in PrabhjotBooks.Models
+8. Add migration CategoryToDb

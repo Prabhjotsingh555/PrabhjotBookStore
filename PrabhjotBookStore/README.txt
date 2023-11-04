@@ -92,3 +92,4 @@ Starting time = 11-04-2023 1145
 Test it = IT WORKED 
 30. Copy ViewImport and _ViewStart to Area's Home
 31. Modify the _ViewStart.cshtml
+32. Added new Admin area in  Area

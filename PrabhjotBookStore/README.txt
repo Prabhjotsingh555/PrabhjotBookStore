@@ -3,6 +3,8 @@ Program name = PrabhjotBookStore
 Program Purpose = Making a MVC project advanced
 Program author = Prabhjot Singh
 
+-------PART 1-------
+
 -------START STEP 1.1 REVIEW-------
 
 1. First I ceatre new project
@@ -97,10 +99,15 @@ Test it = IT WORKED
 34. Delete the Data and Models foldes from the Area's Admin
 35. Delete the empty Controller from prabhjotbookStore
 Test it = IT WORKED
+36. Commint to Github
 
 Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 1.4 Add Projects & Modify-------
+
+-------PART 1-------
+
+-------START STEP 2.1 Create the DB-------
 
 ﻿Starting time = 11-04-2023 0107
 
@@ -111,3 +118,4 @@ Completed time 11-04-2023 0100
  NOW IT WORKED
 4. The migration entry (20231104171407_DefaultIdentityMigration.cs)
 5. Update the database
+6. Add new class Category.cs in PrabhjotBooks.Models

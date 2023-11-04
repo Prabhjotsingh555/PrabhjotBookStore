@@ -94,3 +94,4 @@ Test it = IT WORKED
 31. Modify the _ViewStart.cshtml
 32. Added new Admin area in  Area
 33. Added proper view in Area's View
+34. Delete the Data and Models foldes from the Area's Admin

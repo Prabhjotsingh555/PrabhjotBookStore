@@ -1,4 +1,5 @@
 using System;
+using PrabhjotBookStore.Models.ViewModels;
 
 namespace PrabhjotBookStore.Models.ViewModels
 {

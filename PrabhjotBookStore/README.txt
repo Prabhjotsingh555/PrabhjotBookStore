@@ -86,3 +86,8 @@ Starting time = 11-04-2023 1145
 25. Delete the Data and Models foldes from the Area > Customer
 26. Edit the HomeController.cs
 27. Move the Home folder to Area's View 
+ Test it = IT NOT WORKED																			  ..........ERROR..........
+28. The same error i faced The type or namespace name 'ErrorViewModel' could not be found PrabhjotBookStore
+29. Actually I forget to add @model PrabhjotBookStore.Models.ViewModels.ErrorViewModel in Error.cshtml file so i add it
+Test it = IT WORKED 
+30. Copy ViewImport and _ViewStart to Area's Home

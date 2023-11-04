@@ -105,3 +105,8 @@ Completed time 11-04-2023 0100
 ﻿Starting time = 11-04-2023 0107
 
 1. Update the appsetting.json 
+2. Add migration but it failed
+ NOT WORKED																		                       ..........ERROR..........
+3. Actually not choosed the correct project which was(prabhjotBooks.DataAccess)
+ NOW IT WORKED
+4. The migration entry (20231104171407_DefaultIdentityMigration.cs)

@@ -110,3 +110,4 @@ Completed time 11-04-2023 0100
 3. Actually not choosed the correct project which was(prabhjotBooks.DataAccess)
  NOW IT WORKED
 4. The migration entry (20231104171407_DefaultIdentityMigration.cs)
+5. Update the database

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrabhjotBooks.DataAccess", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrabhjotBooks.Models", "PrabhjotBooks.Models\PrabhjotBooks.Models.csproj", "{9BF77987-2D99-492D-B06B-9B3A35B05AD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrabhjotBooks.Utility", "PrabhjotBooks.Utility\PrabhjotBooks.Utility.csproj", "{4A9EECF8-DA8D-4000-94E1-73954AA57F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9BF77987-2D99-492D-B06B-9B3A35B05AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF77987-2D99-492D-B06B-9B3A35B05AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF77987-2D99-492D-B06B-9B3A35B05AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9EECF8-DA8D-4000-94E1-73954AA57F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9EECF8-DA8D-4000-94E1-73954AA57F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9EECF8-DA8D-4000-94E1-73954AA57F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9EECF8-DA8D-4000-94E1-73954AA57F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

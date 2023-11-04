@@ -101,3 +101,7 @@ Test it = IT WORKED
 Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 1.4 Add Projects & Modify-------
+
+﻿Starting time = 11-04-2023 0107
+
+1. Update the appsetting.json 

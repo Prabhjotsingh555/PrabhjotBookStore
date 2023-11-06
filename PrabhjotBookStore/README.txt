@@ -180,5 +180,5 @@ Completed time 11-04-2023 0100
 -------START STEP 2.3 Category CRUD-------
 
 1. Added new controller (CategoryControllers) in Admin' Contollers
-
+2. Modify the CategoryControllers file
 

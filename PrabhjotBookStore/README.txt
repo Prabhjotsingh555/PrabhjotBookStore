@@ -182,4 +182,5 @@ Completed time 11-04-2023 0100
 1. Added new controller (CategoryControllers) in Admin' Contollers
 2. Modify the CategoryControllers file
 3. Added new folder category in Admin's View
+4. Added New view Index.cshtml in new Category folder
 

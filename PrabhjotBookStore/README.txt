@@ -172,5 +172,13 @@ Completed time 11-04-2023 0100
 27. To solve this issue I make public interface in IUnitOfWork and
 28. I put : IUnitOfWork in UnitofWork and implement interface
  NOW IT WORKED
+  Test it = IT WORKED
+29. Commint to Github
+
+-------COMPLETED STEP 2.2 Repository-------
+
+-------START STEP 2.3 Category CRUD-------
+
+
 
 

@@ -156,3 +156,21 @@ Completed time 11-04-2023 0100
 19. Modify the new interface (IUnitOfWork.cs) in IRepository folder 
 20. Added new class (UnitOfWork.cs) in Repository folder 
 21. Modify the class (UnitOfWork.cs) in Repository folder
+
+﻿Starting time = 11-06-2023 0439
+
+22. Trying to add services.AddScoped<IUnitOfWork, UnitOfWork>(); in startup.cs file
+ NOT WORKED																		                                                          ..........ERROR..........
+23. The type or namespace name 'IUnitOfWork' could not be found (are you missing a using directive or an assembly reference?)
+24. To solve thias issue i apply both references using PrabhjotBooks.DataAccess.Repository;,  using PrabhjotBooks.DataAccess.Repository.IRepository;
+ NOT WORKED																		                                                          ..........BIG ERROR..........
+25. 	'IUnitOfWork' is inaccessible due to its protection leveland
+26. The type 'PrabhjotBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' 
+    in the generic type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'. 
+    There is no implicit reference conversion from 'PrabhjotBooks.DataAccess.Repository.UnitOfWork' to 
+    'PrabhjotBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	
+27. To solve this issue I make public interface in IUnitOfWork and
+28. I put : IUnitOfWork in UnitofWork and implement interface
+ NOW IT WORKED
+
+

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace PrabhjotBooks.DataAccess.Repository
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
@@ -20,6 +20,10 @@ namespace PrabhjotBooks.DataAccess.Repository
 
         public CategoryRepository Category { get; private set; }
         public SP_Call SP_Call { get; private set; }
+
+        ICategoryRepository IUnitOfWork.Category => throw new NotImplementedException();
+
+        ISP_Call IUnitOfWork.SP_Call => throw new NotImplementedException();
 
         public void Dispose()
         {

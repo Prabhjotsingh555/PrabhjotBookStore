@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PrabhjotBooks.DataAccess.Repository;
+using PrabhjotBooks.DataAccess.Repository.IRepository;
 using PrabhjotBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -34,6 +36,7 @@ namespace PrabhjotBookStore
 
             services.AddDefaultIdentity<IdentityUser>()   //options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

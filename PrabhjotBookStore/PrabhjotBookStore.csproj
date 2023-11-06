@@ -23,4 +23,8 @@
     <ProjectReference Include="..\PrabhjotBooks.Utility\PrabhjotBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\Category\" />
+  </ItemGroup>
+
 </Project>

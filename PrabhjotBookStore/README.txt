@@ -185,4 +185,4 @@ Completed time 11-04-2023 0100
 4. Added New view Index.cshtml in new Category folder
 5. Modify the new Index.cshtml
 6. Adding category option in conten-management dropdown menu
-
+7. Adding icons in index.cshtml file

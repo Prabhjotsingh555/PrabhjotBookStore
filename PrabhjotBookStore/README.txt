@@ -187,3 +187,4 @@ Completed time 11-04-2023 0100
 6. Adding category option in conten-management dropdown menu
 7. Adding icons in index.cshtml file
 8. Adding new js file in wwroot folder
+9. Modify the _layoutschtml file

@@ -3,7 +3,7 @@ using PrabhjotBooks.Models;
 using PrabhjotBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace PrabhjotBooks.DataAccess.Repository
 {
@@ -15,6 +15,15 @@ namespace PrabhjotBooks.DataAccess.Repository
             _db = db;
         }
 
+        /*public void Update(Category category)
+        {
+            var objfromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            if (objfromDb ! = null)
+            {
+                objfromDb.Name = category.Name;
+                _db.SaveChanges();
+            }
+        }*/
         public void Update(Category category)
         {
             throw new NotImplementedException();

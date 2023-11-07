@@ -18,12 +18,8 @@ namespace PrabhjotBooks.DataAccess.Repository
             SP_Call = new SP_Call(_db);
         }
 
-        public CategoryRepository Category { get; private set; }
-        public SP_Call SP_Call { get; private set; }
-
-        ICategoryRepository IUnitOfWork.Category => throw new NotImplementedException();
-
-        ISP_Call IUnitOfWork.SP_Call => throw new NotImplementedException();
+        public ICategoryRepository Category { get; private set; }
+        public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()
         {

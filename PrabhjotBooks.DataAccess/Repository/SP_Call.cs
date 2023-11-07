@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using PrabhjotBooks.DataAccess.Repository.IRepository;
 using PrabhjotBookStore.DataAccess.Data;
 using System;
@@ -12,31 +13,13 @@ namespace PrabhjotBooks.DataAccess.Repository
 {
     public class SP_Call : ISP_Call
     {
-        /*public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Execute(string procedurename, DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-*/
         private readonly ApplicationDbContext _db;
         private static string ConnectionString;
 
         public SP_Call(ApplicationDbContext db)
         {
+            _db = db;
+            ConnectionString = db.Database.GetDbConnection().ConnectionString;
         }
 
         public void Dispose()

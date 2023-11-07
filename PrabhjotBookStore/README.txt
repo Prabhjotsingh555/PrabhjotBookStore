@@ -105,7 +105,7 @@ Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 1.4 Add Projects & Modify-------
 
--------PART 1-------
+-------PART 2-------
 
 -------START STEP 2.1 Create the DB-------
 
@@ -116,7 +116,7 @@ Completed time 11-04-2023 0100
  NOT WORKED																		                       ..........ERROR..........
 3. Actually not choosed the correct project which was(prabhjotBooks.DataAccess)
  NOW IT WORKED
-4. The migration entry (20231104171407_DefaultIdentityMigration.cs)
+4. The migration entry (20231104171407_DefaultIdentityMigration.cs)                                 <=================
 5. Update the database
 6. Add new class Category.cs in PrabhjotBooks.Models
 7. Modify the Category.cs in PrabhjotBooks.Models
@@ -126,9 +126,10 @@ Completed time 11-04-2023 0100
  NOT WORKED																		                       ..........ERROR..........
 11. Error was CategoryToDb is used by existing migration
 12. To solve this issue i delete the previous CategoryToDb migration file and re-run command
+13. The category migration entry (20231104174021_CategoryToDb.cs)                                   <=================
  NOW IT WORKED
  Test it = IT WORKED
-13. Commint to Github
+14. Commint to Github
 
 -------COMPLETED STEP 2.1 Create the DB-------
 
@@ -195,3 +196,8 @@ Completed time 11-04-2023 0100
 14. Modify the _CreateAndBackToListButton and _EditAndBackToListButton
 15. Modify the index.cshtml file
 16. Modify the CategoryControllers file
+17. Add the delete functionin in js file and update both readmes
+  Test it = IT WORKED
+18. Commint to Github
+
+-------COMPLETED STEP 2.3 Category CRUD-------

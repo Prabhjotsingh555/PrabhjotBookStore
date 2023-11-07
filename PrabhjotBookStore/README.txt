@@ -193,3 +193,4 @@ Completed time 11-04-2023 0100
 12. Add new razor view (_CreateAndBackToListButton) in Admin's Category
 13. Add new razor view (_EditAndBackToListButton) in Admin's Category
 14. Modify the _CreateAndBackToListButton and _EditAndBackToListButton
+15. Modify the index.cshtml file

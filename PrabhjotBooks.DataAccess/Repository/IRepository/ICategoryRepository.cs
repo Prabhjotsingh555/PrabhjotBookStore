@@ -8,5 +8,6 @@ namespace PrabhjotBooks.DataAccess.Repository.IRepository
     public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category category);
+        Category GetType(int v);
     }
 }

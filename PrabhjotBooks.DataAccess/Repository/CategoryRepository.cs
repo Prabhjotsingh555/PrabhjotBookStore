@@ -15,6 +15,11 @@ namespace PrabhjotBooks.DataAccess.Repository
             _db = db;
         }
 
+        public Category GetType(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         /*public void Update(Category category)
         {
             var objfromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);

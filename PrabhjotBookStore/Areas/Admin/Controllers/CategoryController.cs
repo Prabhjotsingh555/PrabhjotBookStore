@@ -32,7 +32,7 @@ namespace PrabhjotBookStore.Areas.Admin.Controllers
                 return View(category);
             }
 
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            category = _unitOfWork.Category.GetType(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();

@@ -15,7 +15,22 @@ namespace PrabhjotBooks.DataAccess.Repository
             _db = db;
         }
 
+        public object GetAll(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Category GetType(int v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(IEnumerable<Category> objFromDb)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(object objFromDb)
         {
             throw new NotImplementedException();
         }

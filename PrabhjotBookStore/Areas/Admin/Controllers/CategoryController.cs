@@ -40,12 +40,44 @@ namespace PrabhjotBookStore.Areas.Admin.Controllers
             return View();
         }
 
-            #region API CALLS
-            [HttpGet]
+        private IActionResult Upsert1(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(category);
+        }
+
+        #region API CALLS
+        [HttpGet]
         public IActionResult GetAll()
         {
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.GetAll(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete succeful" });
         }
         #endregion
     }

@@ -9,5 +9,9 @@ namespace PrabhjotBooks.DataAccess.Repository.IRepository
     {
         void Update(Category category);
         Category GetType(int v);
+        void Add(Category category);
+        void Remove(IEnumerable<Category> objFromDb);
+        object GetAll(int id);
+        void Remove(object objFromDb);
     }
 }

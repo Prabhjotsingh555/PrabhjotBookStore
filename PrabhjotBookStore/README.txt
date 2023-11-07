@@ -191,3 +191,4 @@ Completed time 11-04-2023 0100
 10. Added Delete and View button in index.cshtml
 11. Add new razor view (Upsert) in Admin's Category
 12. Add new razor view (_CreateAndBackToListButton) in Admin's Category
+13. Add new razor view (_EditAndBackToListButton) in Admin's Category

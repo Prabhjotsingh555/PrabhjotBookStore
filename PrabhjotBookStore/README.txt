@@ -3,6 +3,9 @@ Program name = PrabhjotBookStore
 Program Purpose = Making a MVC project advanced
 Program author = Prabhjot Singh
 
+I am making this again because my previous one is not working when i clone it my three project not found
+and i solve this by not selecting place solution and repository in same loctaion.
+
 -------PART 1-------
 
 -------START STEP 1.1 REVIEW-------
@@ -197,7 +200,11 @@ Completed time 11-04-2023 0100
 15. Modify the index.cshtml file
 16. Modify the CategoryControllers file
 17. Add the delete functionin in js file and update both readmes
+  Test it = IT NOT WORKED
+18. Try to add data in tablee but it no add							                                                          ..........BIG ERROR..........
+19. The error was DataTables warning: teble id = tbldata- Ajax error. 
+20. I solve this issue by updating database and re write the category.js code also by rechecking all files
   Test it = IT WORKED
-18. Commint to Github
+29. Commint to Github
 
 -------COMPLETED STEP 2.3 Category CRUD-------

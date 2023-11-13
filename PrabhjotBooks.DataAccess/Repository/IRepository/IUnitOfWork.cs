@@ -4,11 +4,10 @@ using System.Text;
 
 namespace PrabhjotBooks.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfWork : IDisposable
+    interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
-        ISP_Call SP_Call { get; }
 
-        void Save();
+        ISP_Call SP_Call { get; }
     }
 }

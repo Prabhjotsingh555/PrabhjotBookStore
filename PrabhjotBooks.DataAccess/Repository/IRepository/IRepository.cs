@@ -8,22 +8,23 @@ namespace PrabhjotBooks.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        T GetT(int id);
+        T Get(int id);
 
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
-            Func<IQueryable<T>, IOrderedEnumerable<T>> orderBy = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderby = null,
             string includeProperties = null
             );
+        void Add(T entity); // to add an entity
 
-        T GetFirstOrderDefault(
-            Expression<Func<T, bool>> filter = null,
-            string includeProperties = null
-            );
+        void Remove(int id); // to remove an object or category
 
-        void Addd(T entity);
-        void Remove(int id);
-        void Remove(T entity);
-        void RemoveRange(IEnumerable<T> entity);
+        void Remove(T entity); // another way to remove an object
+
+        void RemoveRange(IEnumerable<T> entity); // removes a complete range of entities
+
+
+
+
     }
 }

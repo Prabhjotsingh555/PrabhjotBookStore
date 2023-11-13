@@ -25,11 +25,6 @@ namespace PrabhjotBooks.DataAccess.Repository
             dbSet.Add(entity);      // add context so classes correspond to the DbSet in ApplicationDbContext
         }
 
-        public void Addd(T entity)
-        {
-            throw new NotImplementedException();
-        }
-
         public T Get(int id)
         {
             return dbSet.Find(id);
@@ -58,11 +53,6 @@ namespace PrabhjotBooks.DataAccess.Repository
             return query.ToList();      // returns the IEnumerable based on the conditions of the query
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedEnumerable<T>> orderBy = null, string includeProperties = null)
-        {
-            throw new NotImplementedException();
-        }
-
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
@@ -80,16 +70,6 @@ namespace PrabhjotBooks.DataAccess.Repository
             }
 
             return query.FirstOrDefault();      // returns the IEnumerable based on the conditions of the query
-        }
-
-        public T GetFirstOrderDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public T GetT(int id)
-        {
-            throw new NotImplementedException();
         }
 
         public void Remove(int id)

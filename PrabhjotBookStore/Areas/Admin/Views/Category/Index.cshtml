@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = "~/views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <br />
@@ -8,7 +8,9 @@
         <h2 class="text-primary">Category List </h2>
     </div>
     <div class="col-6 text-right">
-        <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create New Category</a>
+        <a class="btn btn-primary" asp-action="Upsert">
+            <i class="fas fa-plus"></i> &nbsp; Create New Category
+        </a>
     </div>
 </div>
 
@@ -18,12 +20,16 @@
         <thead class="thead-dark">
             <tr class="table-info">
                 <th>Name</th>
-                <th></th>
+                <th>Actions</th>
             </tr>
         </thead>
+        <!-- DataTable content will be populated dynamically -->
     </table>
 </div>
 
-@section Scripts{ 
+
+
+@section Scripts {
     <script src="~/js/Category.js"></script>
+
 }

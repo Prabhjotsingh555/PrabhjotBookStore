@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PrabhjotBooks.DataAccess.Repository;
 using PrabhjotBooks.DataAccess.Repository.IRepository;
 using PrabhjotBooks.Models;
 using System;
@@ -8,77 +9,63 @@ using System.Threading.Tasks;
 
 namespace PrabhjotBookStore.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class CategoryController : Controller
-    {
-
-        private readonly IUnitOfWork _unitOfWork;
-
-        public CategoryController(IUnitOfWork unitOfWork)
+        [Area("Admin")]
+        public class CategoryController : Controller
         {
-            _unitOfWork = unitOfWork;
-        }
+            private readonly UnitOfWork _unitOfWork;
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Upsert(int? id)
-        {
-            Category category = new Category();
-            if (id == null)
+            public CategoryController(UnitOfWork unitOfWork)
             {
+                _unitOfWork = unitOfWork;
+            }
+
+            public IActionResult Index()
+            {
+                return View();
+            }
+            public IActionResult upsert(int? id) 
+            {
+                Category category = new Category(); 
+                if (id == null)
+                {
+                    // this is for create 
+                    return View(category);
+                }
+
+                category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+                if (category == null)
+                {
+                    return NotFound();
+                }
+
                 return View(category);
             }
 
-            category = _unitOfWork.Category.GetType(id.GetValueOrDefault());
-            if (category == null)
-            {
-                return NotFound();
-            }
-            return View();
-        }
+            [HttpPost]
+            [ValidateAntiForgeryToken]
 
-        private IActionResult Upsert1(Category category)
-        {
-            if (ModelState.IsValid)
+
+
+            public IActionResult Upsert(Category category)
             {
-                if (category.Id == 0)
+                if (ModelState.IsValid)
                 {
-                    _unitOfWork.Category.Add(category);
-
+                    if (category.Id == 0)
+                    {
+                        _unitOfWork.Category.Add(category);
+                    }
+                    else
+                    {
+                        _unitOfWork.Category.Update(category);
+                    }
+                    _unitOfWork.Save();
+                    return RedirectToAction(nameof(Index));
                 }
-                else
-                {
-                    _unitOfWork.Category.Update(category);
-                }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
+                return View(category);
             }
-            return View(category);
-        }
+            // API calls here
 
-        #region API CALLS
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { data = allObj });
-        }
 
-        [HttpDelete]
-        public IActionResult Delete(int id)
-        {
-            var objFromDb = _unitOfWork.Category.GetAll(id);
-            if (objFromDb == null)
-            {
-                return Json(new { success = false, message = "Error while deleting" });
-            }
-            _unitOfWork.Category.Remove(objFromDb);
-            _unitOfWork.Save();
-            return Json(new { success = true, message = "Delete succeful" });
+
         }
-        #endregion
     }
-}

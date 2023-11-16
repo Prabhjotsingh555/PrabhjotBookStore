@@ -235,4 +235,10 @@ Completed time 11-04-2023 0100
 
 1. Added new class Product.cs
 2. Modify Product class
+3. Adding migration															                           ..........ERROR..........
+4. Migration is empty
+5. To solve this issue i add references and re add migratiom
+ It Worked
+6. Migration Entry (20231116222911_addProductTodo)                                <=================
+7. 
 

@@ -240,6 +240,7 @@ Completed time 11-04-2023 0100
 5. To solve this issue i add references and re add migratiom
  It Worked
 6. Migration Entry (20231116225423_addProductToDo.cs)                                <=================
-7. Another migration entry (20231116225701_addValidationToProduct.cs)                <=================
-8. 
+7. Add references
+8. Another migration entry (20231116225701_addValidationToProduct.cs)                <=================
+9. Create ProductRepository class and IProductRepository interface
 

@@ -209,4 +209,16 @@ Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 2.3 Category CRUD-------
 
+-------PART 3-------
 
+-------START STEP 3.1 Cover Type CRUD-------
+
+﻿Starting time = 11-16-2023 1244
+
+1. Added new class CoverType.cs to model project
+2. Create CovertypeRepository class and ICoverTypeRepository interface
+3. Added covertype to UnitOfWork class and IUnitOfWork interface
+4. Add migration (20231116214144_CoverTypeDefault.cs)                                 <=================
+5. update database
+6. Create new folder covertype
+7. Added Index and upsert view 

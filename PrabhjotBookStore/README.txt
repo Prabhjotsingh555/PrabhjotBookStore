@@ -223,3 +223,4 @@ Completed time 11-04-2023 0100
 6. Create new folder covertype
 7. Added Index and upsert view 
 8. Update _Layout.cshtml file
+9. Create new js file and link it

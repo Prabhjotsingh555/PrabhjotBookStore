@@ -209,17 +209,4 @@ Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 2.3 Category CRUD-------
 
--------PART 3-------
 
--------START STEP 3.1 Cover Type CRUD-------
-
-﻿Starting time = 11-16-2023 1250
-
-1. Add migration 
-2. Migration Entry (20231116180046_CoverDefaultMigration.cs)                                  <=================
-3. Update database
-4. Added new class CoverType in Moddel project
-5. Added new Covertype mvc controller
-6. Added new two folder Repository and IRepository
-7. Added CoverTypeRepository class and ICoverTypeRepository interface
-8. Added UnitofWork class and IUnitofWork interface

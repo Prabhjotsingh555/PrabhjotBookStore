@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Admin\Views\CoverType\**" />
+    <Content Remove="Areas\Admin\Views\CoverType\**" />
+    <EmbeddedResource Remove="Areas\Admin\Views\CoverType\**" />
+    <None Remove="Areas\Admin\Views\CoverType\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.17" />
@@ -21,10 +28,6 @@
     <ProjectReference Include="..\PrabhjotBooks.DataAccess\PrabhjotBooks.DataAccess.csproj" />
     <ProjectReference Include="..\PrabhjotBooks.Models\PrabhjotBooks.Models.csproj" />
     <ProjectReference Include="..\PrabhjotBooks.Utility\PrabhjotBooks.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Views\CoverType\" />
   </ItemGroup>
 
 </Project>

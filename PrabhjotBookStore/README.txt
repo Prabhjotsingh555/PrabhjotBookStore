@@ -244,4 +244,5 @@ Completed time 11-04-2023 0100
 8. Another migration entry (20231116225701_addValidationToProduct.cs)                <=================
 9. Create ProductRepository class and IProductRepository interface
 10. Added covertype to UnitOfWork class and IUnitOfWork interface
+11. Modify the ProductRepository
 

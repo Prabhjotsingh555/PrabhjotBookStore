@@ -234,4 +234,5 @@ Completed time 11-04-2023 0100
 ﻿Starting time = 11-16-2023 0518
 
 1. Added new class Product.cs
+2. Modify Product class
 

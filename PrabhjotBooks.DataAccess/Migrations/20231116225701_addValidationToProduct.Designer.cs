@@ -10,8 +10,8 @@ using PrabhjotBookStore.DataAccess.Data;
 namespace PrabhjotBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231116223331_addProductTodo")]
-    partial class addProductTodo
+    [Migration("20231116225701_addValidationToProduct")]
+    partial class addValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

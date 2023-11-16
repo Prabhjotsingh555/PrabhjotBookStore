@@ -215,5 +215,7 @@ Completed time 11-04-2023 0100
 
 ﻿Starting time = 11-16-2023 1250
 
-1. Added new class CoverType in Moddel project
-2. Added new Covertype mvc controller
+1. Add migration 
+2. Migration Entry (20231116180046_CoverDefaultMigration.cs)                                  <=================
+4. Added new class CoverType in Moddel project
+5. Added new Covertype mvc controller

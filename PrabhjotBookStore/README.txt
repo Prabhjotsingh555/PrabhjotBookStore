@@ -220,3 +220,4 @@ Completed time 11-04-2023 0100
 3. Update database
 4. Added new class CoverType in Moddel project
 5. Added new Covertype mvc controller
+6. Added new two folder Repository and IRepository

@@ -245,4 +245,7 @@ Completed time 11-04-2023 0100
 9. Create ProductRepository class and IProductRepository interface
 10. Added covertype to UnitOfWork class and IUnitOfWork interface
 11. Modify the ProductRepository
+  Test it = IT WORKED
+12. Commint to Github
 
+-------COMPLETED STEP 3.2 Cover Type CRUD-------

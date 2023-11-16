@@ -208,3 +208,11 @@ Completed time 11-04-2023 0100
 29. Commint to Github
 
 -------COMPLETED STEP 2.3 Category CRUD-------
+
+-------PART 3-------
+
+-------START STEP 3.1 Cover Type CRUD-------
+
+﻿Starting time = 11-16-2023 1250
+
+1. Added new Covertype mvc controller

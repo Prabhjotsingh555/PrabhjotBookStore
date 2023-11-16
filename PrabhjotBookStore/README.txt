@@ -255,3 +255,4 @@ Completed time 11-04-2023 0100
 ﻿Starting time = 11-16-2023 0626
 
 1. Added new controller ProductController
+2. Modify the ProductController

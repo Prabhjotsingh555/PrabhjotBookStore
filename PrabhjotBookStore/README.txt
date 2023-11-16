@@ -249,3 +249,9 @@ Completed time 11-04-2023 0100
 12. Commint to Github
 
 -------COMPLETED STEP 3.2 Cover Type CRUD-------
+
+-------START STEP 3.3 Product CRUD 2-------
+
+﻿Starting time = 11-16-2023 0626
+
+1. Added new controller ProductController

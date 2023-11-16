@@ -222,3 +222,4 @@ Completed time 11-04-2023 0100
 5. Added new Covertype mvc controller
 6. Added new two folder Repository and IRepository
 7. Added CoverTypeRepository class and ICoverTypeRepository interface
+8. Added UnitofWork class and IUnitofWork interface

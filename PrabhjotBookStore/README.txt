@@ -224,3 +224,14 @@ Completed time 11-04-2023 0100
 7. Added Index and upsert view 
 8. Update _Layout.cshtml file
 9. Create new js file and link it
+  Test it = IT WORKED
+10. Commint to Github
+
+-------COMPLETED STEP 3.1 Cover Type CRUD-------
+
+-------START STEP 3.2 Product CRUD-------
+
+﻿Starting time = 11-16-2023 0518
+
+1. Added new class Product.cs
+

@@ -261,3 +261,4 @@ Completed time 11-04-2023 0100
 5. Created new Folder prduct
 6. Added new view in Product folder
 7. Modify the index.cshtml view
+8. Added new js file

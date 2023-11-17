@@ -260,3 +260,4 @@ Completed time 11-04-2023 0100
 4. Modify the new class ProductVM
 5. Created new Folder prduct
 6. Added new view in Product folder
+7. Modify the index.cshtml view

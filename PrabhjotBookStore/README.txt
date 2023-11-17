@@ -274,3 +274,4 @@ Completed time 11-04-2023 0100
 
 1. Added Upsert view to Area/Admin/Views
 2. MOdify the upsert
+3. Cretae a folder (images) and a sub folder (products)

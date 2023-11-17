@@ -268,7 +268,7 @@ Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 3.2 Product CRUD 2-------
 
--------START STEP 3. Product CRUD 3-------
+-------START STEP 3.2 Product CRUD 3-------
 
 ﻿Starting time = 11-16-2023 0728
 
@@ -276,3 +276,4 @@ Completed time 11-04-2023 0100
 2. MOdify the upsert
 3. Cretae a folder (images) and a sub folder (products)
 4. Uncomment the code in productcontroller
+

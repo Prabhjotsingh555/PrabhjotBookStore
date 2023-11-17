@@ -258,3 +258,4 @@ Completed time 11-04-2023 0100
 2. Modify the ProductController
 3. Create new class in model project ProductVM
 4. Modify the new class ProductVM
+5. Created new Folder prject

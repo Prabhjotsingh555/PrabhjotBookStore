@@ -262,3 +262,8 @@ Completed time 11-04-2023 0100
 6. Added new view in Product folder
 7. Modify the index.cshtml view
 8. Added new js file
+9. Modify the _Layout.cshtml file
+  Test it = IT WORKED
+10. Commint to Github
+
+-------COMPLETED STEP 3.3 Product CRUD 2-------

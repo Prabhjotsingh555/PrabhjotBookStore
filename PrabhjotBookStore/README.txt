@@ -250,7 +250,7 @@ Completed time 11-04-2023 0100
 
 -------COMPLETED STEP 3.2 Cover Type CRUD-------
 
--------START STEP 3.3 Product CRUD 2-------
+-------START STEP 3.2 Product CRUD 2-------
 
 ﻿Starting time = 11-16-2023 0626
 
@@ -266,4 +266,10 @@ Completed time 11-04-2023 0100
   Test it = IT WORKED
 10. Commint to Github
 
--------COMPLETED STEP 3.3 Product CRUD 2-------
+-------COMPLETED STEP 3.2 Product CRUD 2-------
+
+-------START STEP 3. Product CRUD 3-------
+
+﻿Starting time = 11-16-2023 0728
+
+1. Added Upsert view to Area/Admin/Views

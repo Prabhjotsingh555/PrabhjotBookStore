@@ -277,3 +277,6 @@ Completed time 11-04-2023 0100
 3. Cretae a folder (images) and a sub folder (products)
 4. Uncomment the code in productcontroller
 
+﻿Starting time = 11-20-2023 1214
+
+5. Added tiny style into upsert.cshtml file

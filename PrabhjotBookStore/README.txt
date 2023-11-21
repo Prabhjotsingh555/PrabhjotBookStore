@@ -280,3 +280,21 @@ Completed time 11-04-2023 0100
 ﻿Starting time = 11-20-2023 1214
 
 5. Added tiny style into upsert.cshtml file
+
+﻿Starting time = 11-21-2023 1103
+
+6. Try to run the program in another pc 
+  NOT WORKED							                                                          ..........BIG ERROR..........
+7. I run the command update-database i face a error
+ Cannot find the object "Products" because it does not exists 
+8. So solve this issue i delete the previous both product's migrations and re-run but this my migration 
+   is empty so i comment the product code in application db context file,  Unitofwork and in 
+   productrepository now
+9. Again delete the product migration and re run migration it worked but in migartion i don't have complete code
+10. So now I Last time deletet the migratoion  and Uncomment the product code from the three file
+11. Re-run the product migration command
+  Test it = IT WORKED
+12. But I comment the drop table code from the migration file to run the update-database code
+  Test it = IT WORKED
+13. Uncomment the code from the migration file 
+  Test it = IT WORKED

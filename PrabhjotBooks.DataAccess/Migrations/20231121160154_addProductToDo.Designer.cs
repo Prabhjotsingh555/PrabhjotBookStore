@@ -10,7 +10,7 @@ using PrabhjotBookStore.DataAccess.Data;
 namespace PrabhjotBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231116225423_addProductToDo")]
+    [Migration("20231121160154_addProductToDo")]
     partial class addProductToDo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -263,6 +263,7 @@ namespace PrabhjotBooks.DataAccess.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Author")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("CategoryId")
@@ -275,6 +276,7 @@ namespace PrabhjotBooks.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
@@ -284,6 +286,7 @@ namespace PrabhjotBooks.DataAccess.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("Title")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

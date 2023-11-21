@@ -298,3 +298,8 @@ Completed time 11-04-2023 0100
   Test it = IT WORKED
 13. Uncomment the code from the migration file 
   Test it = IT WORKED
+14. Unforunately this solution not work when i try to run this in another pc
+  NOT WORKED							                                                          ..........SAME BIG ERROR..........
+15. This time I find easy and simple solution
+16. I simply delete the validation migration file
+  Test it = IT WORKED

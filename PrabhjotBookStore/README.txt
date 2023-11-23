@@ -322,3 +322,7 @@ Completed time 11-04-2023 0100
 
 23. For diing new fiels i update the product class
 24. Delete the old mgration
+
+ 0414
+
+ 25. Added new migration (20231123211358_addProductToDo)  <================

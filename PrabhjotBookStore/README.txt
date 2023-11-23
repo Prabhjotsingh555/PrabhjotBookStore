@@ -303,3 +303,10 @@ Completed time 11-04-2023 0100
 15. This time I find easy and simple solution
 16. I simply delete the validation migration file
   Test it = IT WORKED
+
+﻿Starting time = 11-23-2023 0210
+
+17. Facing an error while creating product 														       ..........ERROR..........
+18. Error is = An error occurred while updating the entries. See the inner exception for details.'
+19. To solve this issue I notic i write category id instaed of cvertype id in upsert.cshtml file in 84 line
+  Test it = IT WORKED

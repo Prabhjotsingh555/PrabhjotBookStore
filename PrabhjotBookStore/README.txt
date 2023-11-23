@@ -329,4 +329,8 @@ Completed time 11-04-2023 0100
  
   0419
 
-  26. Update the Upsert.cshtml and ProductRepository file
+26. Update the Upsert.cshtml and ProductRepository file
+
+ 0422
+
+27. Update the index.cstml file for displaying images on fromt page

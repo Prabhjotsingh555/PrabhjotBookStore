@@ -334,3 +334,4 @@ Completed time 11-04-2023 0100
  0422
 
 27. Update the index.cstml file for displaying images on fromt page
+28. Update the Homecontroller 

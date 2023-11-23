@@ -317,3 +317,8 @@ Completed time 11-04-2023 0100
 21. Requested unknown parameter 'price' for row 0, column 2. For more information about this error,          ..........ERROR..........
 22. To solve this issue i changed the price name in js to listPrice
   Test it = IT WORKED
+
+ 0411
+
+23. For diing new fiels i update the product class
+24. Delete the old mgration

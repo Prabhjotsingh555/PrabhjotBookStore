@@ -310,3 +310,10 @@ Completed time 11-04-2023 0100
 18. Error is = An error occurred while updating the entries. See the inner exception for details.'
 19. To solve this issue I notic i write category id instaed of cvertype id in upsert.cshtml file in 84 line
   Test it = IT WORKED
+
+﻿Starting time = 11-23-2023 0406
+
+20. While making record in product i face new error
+21. Requested unknown parameter 'price' for row 0, column 2. For more information about this error,          ..........ERROR..........
+22. To solve this issue i changed the price name in js to listPrice
+  Test it = IT WORKED

@@ -345,4 +345,10 @@ Completed time 11-04-2023 0100
  30. Mistakely I created three extra price fields 
  31. To remove this i update the product class
  32. Re add migration
+
+ 04010
+
+ 33. Added images in the product folder
+
+
   

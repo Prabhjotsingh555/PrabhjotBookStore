@@ -339,3 +339,10 @@ Completed time 11-04-2023 0100
  0444
 
  29. Update the Layout.cshtml page
+
+ ﻿Starting time = 11-27-2023 0401
+
+ 30. Mistakely I created three extra price fields 
+ 31. To remove this i update the product class
+ 32. Re add migration
+  

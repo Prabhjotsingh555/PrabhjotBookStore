@@ -10,7 +10,7 @@ using PrabhjotBookStore.DataAccess.Data;
 namespace PrabhjotBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231123211358_addProductToDo")]
+    [Migration("20231127205751_addProductToDo")]
     partial class addProductToDo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -286,12 +286,6 @@ namespace PrabhjotBooks.DataAccess.Migrations
                         .HasColumnType("float");
 
                     b.Property<double>("Price")
-                        .HasColumnType("float");
-
-                    b.Property<double>("Price100")
-                        .HasColumnType("float");
-
-                    b.Property<double>("Price50")
                         .HasColumnType("float");
 
                     b.Property<string>("Title")

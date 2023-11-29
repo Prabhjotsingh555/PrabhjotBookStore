@@ -30,6 +30,23 @@ namespace PrabhjotBookStore.Area.Customer.Controllers
         {
             return View();
         }
+        public IActionResult Detail(int? id)
+        {
+        if (id == null)
+        {
+            return NotFound();
+        }
+
+        var product = _unifOfWork.Product.GetFirstOrDefault(p => p.Id == id, includeProperties: "Category,CoverType");
+
+        if (product == null)
+        {
+            return NotFound();
+        }
+
+    return View(product);
+}
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

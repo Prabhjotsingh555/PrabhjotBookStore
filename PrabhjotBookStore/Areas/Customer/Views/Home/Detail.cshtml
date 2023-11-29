@@ -1,0 +1,30 @@
+﻿@model PrabhjotBooks.Models.Product
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.ImageUrl" class="img-fluid rounded" alt="@Model.Title" />
+        </div>
+        <div class="col-md-6">
+            <div class="card border-dark">
+                <div class="card-body">
+                    <h2 class="card-title">@Model.Title</h2>
+                    <p class="card-text"><strong>Author:</strong> @Model.Author</p>
+                    <strong>Description:</strong> @Model.Description
+                    <p class="card-text"><strong>List Price:</strong> $@Model.ListPrice.ToString("0.00")</p>
+                    <p class="card-text"><strong>Price:</strong> $@Model.Price.ToString("0.00")</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-success">Back to Product List</a>
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Upsert" asp-route-id="@Model.Id" class="btn btn-primary">Edit Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

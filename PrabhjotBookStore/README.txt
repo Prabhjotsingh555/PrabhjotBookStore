@@ -354,4 +354,8 @@ Completed time 11-04-2023 0100
 
 34. Add the Ddetail view in the Customer > Views > Home
 
+1201
+
+35. Link to Home COntroller
+
   

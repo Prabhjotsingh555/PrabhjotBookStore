@@ -362,4 +362,6 @@ Completed time 11-04-2023 0100
 
 36. Added Edit Button and modify the detail view code
 
-  
+1216
+
+37. Give Style to Detail

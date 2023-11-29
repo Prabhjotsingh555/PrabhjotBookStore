@@ -358,4 +358,8 @@ Completed time 11-04-2023 0100
 
 35. Link to Home COntroller
 
+1202
+
+36. Added Edit Button and modify the detail view code
+
   

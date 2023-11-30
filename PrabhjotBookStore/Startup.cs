@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PrabhjotBooks.DataAccess.Data;
 using PrabhjotBooks.DataAccess.Repository;
 using PrabhjotBooks.DataAccess.Repository.IRepository;
 using PrabhjotBookStore.DataAccess.Data;
@@ -54,6 +55,12 @@ namespace PrabhjotBookStore
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            using (var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                var dbContext = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                AllSeedData.InitializeAsync(dbContext).Wait();
+            }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

@@ -373,3 +373,8 @@ Completed time 11-04-2023 0100
 1211
 
 39. Add the Covertype and Category lists in the detail view and delete some images
+
+0157
+
+40. Try to add seedData
+41. Make Class AllSeedData (in this class I am adding the 5 records of Category, 5 of Covertype and 3 of Product)

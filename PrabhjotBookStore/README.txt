@@ -380,6 +380,7 @@ Completed time 11-04-2023 0100
 41. Make Class AllSeedData (in this class I am adding the 5 records of Category, 5 of Covertype and 3 of Product)
 42. Conect it to the startup.cs file
 
-0207
+0211
 
 43. Add the migration 
+44. Update the database

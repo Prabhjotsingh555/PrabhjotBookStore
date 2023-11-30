@@ -365,3 +365,7 @@ Completed time 11-04-2023 0100
 1216
 
 37. Give Style to Detail
+
+  ﻿Starting time = 11-30-2023 1002
+
+38. Modify the code of Detail View

@@ -1,4 +1,5 @@
-﻿@model PrabhjotBooks.Models.Product
+﻿@model PrabhjotBooks.Models.ViewModels.ProductVM
+
 @{
     ViewData["Title"] = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,25 +8,25 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-6">
-            <img src="@Model.ImageUrl" class="img-fluid rounded" alt="@Model.Title" />
+            <img src="@Model.Product.ImageUrl" class="img-fluid rounded" alt="@Model.Product.Title" />
         </div>
         <div class="col-md-6">
             <div class="card border-dark">
                 <div class="card-body">
-                    <h2 class="card-title">@Model.Title</h2>
-                    <p class="card-text"><strong><b>Author:</b></strong> @Model.Author</p>
-                    <p class="card-text"><strong><b>ISBN:</b></strong> @Model.ISBN</p>
-                    <p class="card-text"><strong><b>Description:</b></strong> @Model.Description</p>
-                    <p class="card-text"><strong><b>List Price:</b></strong> $@Model.ListPrice.ToString("0.00")</p>
-                    <p class="card-text"><strong><b>Price:</b></strong> $@Model.Price.ToString("0.00")</p>
+                    <h2 class="card-title">@Model.Product.Title</h2>
+                    <p class="card-text"><strong><b>Author:</b></strong> @Model.Product.Author</p>
+                    <p class="card-text"><strong><b>ISBN:</b></strong> @Model.Product.ISBN</p>
+                    <p class="card-text"><strong><b>Description:</b></strong> @Model.Product.Description</p>
+                    <p class="card-text"><strong><b>Category:</b></strong> @Model.Category</p>
+                    <p class="card-text"><strong><b>Cover Type:</b></strong> @Model.CoverType</p>
+                    <p class="card-text"><strong><b>List Price:</b></strong> $@Model.Product.ListPrice.ToString("0.00")</p>
+                    <p class="card-text"><strong><b>Price:</b></strong> $@Model.Product.Price.ToString("0.00")</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                     <a asp-action="Index" class="btn btn-success">Back to Product List</a>
-                    <a asp-area="Admin" asp-controller="Product" asp-action="Upsert" asp-route-id="@Model.Id" class="btn btn-primary">Edit Product</a>
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Upsert" asp-route-id="@Model.Product.Id" class="btn btn-primary">Edit Product</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-

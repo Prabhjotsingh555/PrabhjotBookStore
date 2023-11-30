@@ -369,3 +369,7 @@ Completed time 11-04-2023 0100
   ﻿Starting time = 11-30-2023 1002
 
 38. Modify the code of Detail View
+
+1211
+
+39. Add the Covertype and Category lists in the detail view and delete some images

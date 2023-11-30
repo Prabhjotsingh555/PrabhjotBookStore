@@ -10,6 +10,8 @@ namespace PrabhjotBooks.Models.ViewModels
     public class ProductVM
     {
         public Product Product { get; set; }
+        public string Category { get; set; } 
+        public string CoverType { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
         public IEnumerable<SelectListItem> CoverTypeList { get; set; }
     }

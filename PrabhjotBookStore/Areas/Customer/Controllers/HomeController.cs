@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using PrabhjotBooks.DataAccess.Repository.IRepository;
 using PrabhjotBooks.Models;
+using PrabhjotBooks.Models.ViewModels;
 using PrabhjotBookStore.Models.ViewModels;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -32,20 +33,30 @@ namespace PrabhjotBookStore.Area.Customer.Controllers
         }
         public IActionResult Detail(int? id)
         {
-        if (id == null)
-        {
-            return NotFound();
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = _unifOfWork.Product.GetFirstOrDefault(p => p.Id == id, includeProperties: "Category,CoverType");
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            var productVM = new ProductVM
+            {
+                Product = product,
+                Category = product.Category.Name, 
+                CoverType = product.CoverType.Name
+            };
+
+            return View(productVM);
         }
 
-        var product = _unifOfWork.Product.GetFirstOrDefault(p => p.Id == id, includeProperties: "Category,CoverType");
 
-        if (product == null)
-        {
-            return NotFound();
-        }
 
-    return View(product);
-}
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

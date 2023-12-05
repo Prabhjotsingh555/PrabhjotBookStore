@@ -667,7 +667,7 @@ Completed time 11-04-2023 0100
 43. Add the migration 
 44. Update the database
 
-  ﻿Starting time = 12-04-2023 14240
+  ﻿Starting time = 12-04-2023 1424
 
 45. Everything is running good but i have an error
 46. Error is when I try to update the database it show error that product name table already exists so 
@@ -677,7 +677,16 @@ Completed time 11-04-2023 0100
 
 48. Update the text readme
 49. Updatr the md readme
-50. Check it running properly? Yes
+50. Check it running properly? No
+
+  ﻿Starting time = 12-05-2023 0124
+
+51. I faced same error table name alreday exists
+52. To solve this issue i make a code in migration file migrationBuilder.Sql("DROP TABLE IF EXISTS dbo.Products");
+53. Now this will delete the previous table Products and then update database
+  Test it = IT WORKED
+ Commint to Github
+
 
    Commint to Github
 

@@ -6,6 +6,8 @@ namespace PrabhjotBooks.DataAccess.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.Sql("DROP TABLE IF EXISTS dbo.Products");
+
             migrationBuilder.CreateTable(
                 name: "Products",
                 columns: table => new

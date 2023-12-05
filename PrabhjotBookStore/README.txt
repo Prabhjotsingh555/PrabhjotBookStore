@@ -656,18 +656,21 @@ Completed time 11-04-2023 0100
 
 39. Add the Covertype and Category lists in the detail view and delete some images
 
-0157
+0201
 
 40. Try to add seedData
 41. Make Class AllSeedData (in this class I am adding the 5 records of Category, 5 of Covertype and 3 of Product)
 42. Conect it to the startup.cs file
 
-0211
+0207
 
 43. Add the migration 
+
+0212
+
 44. Update the database
 
-  ﻿Starting time = 12-04-2023 1424
+  ﻿Starting time = 12-04-2023 1206
 
 45. Everything is running good but i have an error
 46. Error is when I try to update the database it show error that product name table already exists so 
@@ -686,8 +689,5 @@ Completed time 11-04-2023 0100
 53. Now this will delete the previous table Products and then update database
   Test it = IT WORKED
  Commint to Github
-
-
-   Commint to Github
 
    -------COMPLETED STEP 3.2 Product CRUD 3 and 3.4-------
